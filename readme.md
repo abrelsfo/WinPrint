@@ -1,7 +1,7 @@
 # WinPrint
 
 [![npm version](https://img.shields.io/npm/v/winprint.svg)](https://www.npmjs.com/package/winprint)
-[![Build Status](https://travis-ci.org/abrelsfo/winprint.svg?branch=master)](https://travis-ci.org/abrelsfo/winprint.svg?branch=master)
+[![Build Status](https://travis-ci.org/abrelsfo/WinPrint.svg?branch=master)](https://travis-ci.org/abrelsfo/WinPrint.svg?branch=master)
 [![npm download count](http://img.shields.io/npm/dm/winprint.svg?style=flat)](http://npmjs.org/winprint)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
