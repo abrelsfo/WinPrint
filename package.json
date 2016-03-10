@@ -1,6 +1,6 @@
 {
   "name": "winprint",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This will replace the PRINT function on Windows since PRINT no longer works",
   "license": "MIT",
   "repository": "abrelsfo/winprint",
@@ -34,7 +34,9 @@
   "dependencies": {
     "fs": "0.0.2",
     "meow": "^3.7.0",
+    "rsvp": "^3.2.1",
     "strip_character": "0.0.4",
+    "tap": "^5.7.0",
     "update-notifier": "^0.6.1"
   },
   "devDependencies": {

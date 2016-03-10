@@ -29,4 +29,6 @@ if (cli.input.length !== 1 || Object.keys(cli.flags).length > 1) {
   process.exit(1);
 }
 
-winprint(cli.input[0], Object.keys(cli.flags)[0]);
+winprint(cli.input[0], Object.keys(cli.flags)[0] || '', function (res) {
+  console.log(res);
+});
