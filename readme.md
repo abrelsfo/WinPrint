@@ -40,7 +40,7 @@ Type: `string`
 
 ##### flag (optional)
 
-Type: `string`
+Type: `string`<br>
 Default: Not literal
 
 <br>
