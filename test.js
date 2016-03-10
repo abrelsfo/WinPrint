@@ -12,7 +12,7 @@ test.cb('NonLiteral', function (t) {
 test.cb('Literal', function (t) {
   fn('test.txt', 'l', function (res) {
     res = res.replace(/\\r\\n/g, '\\n');
-    t.is(res, 'This is a test\\nHow is it going\\nSo far!!!');
+    t.is(res, 'This is a test\\n\nHow is it going\\n\nSo far!!!');
     t.end();
   });
 });
