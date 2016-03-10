@@ -45,7 +45,7 @@ module.exports = function (input, literal) {
     throw new Error('WinPrint expected a file but got nothing');
   }
 
-  if (literal !== undefined && literal !== 'l') {
+  if (literal !== 'l' && literal !== undefined) {
     throw new Error('WinPrint expected flag to be missing or l, got ' + literal);
   }
 

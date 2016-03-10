@@ -18,7 +18,7 @@ var cli = meow([
   '    shits & giggles',
   '',
   '    $ winprint ponies.txt -l',
-  '    cows & rainbows\n'
+  '    cows & rainbows\\n'
 ]);
 
 updateNotifier({pkg: cli.pkg}).notify();
@@ -29,4 +29,4 @@ if (cli.input.length !== 1 || Object.keys(cli.flags).length > 1) {
   process.exit(1);
 }
 
-console.log(winprint(cli.input[0], Object.keys(cli.flags))));
+winprint(cli.input[0], Object.keys(cli.flags)[0]);
